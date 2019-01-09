@@ -1,0 +1,28 @@
+{
+  "name": "xiaomeiservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wosxieez/XiaoMeiService.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wosxieez/XiaoMeiService/issues"
+  },
+  "homepage": "https://github.com/wosxieez/XiaoMeiService#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "3.2.0",
+    "koa-router": "7.0.0",
+    "mysql": "^2.16.0",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  }
+}
